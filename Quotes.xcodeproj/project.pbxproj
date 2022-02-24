@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C12411F827C680CF0011E65C /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12411F727C680CF0011E65C /* Quote.swift */; };
 		C182ABA127C5E15600C1C142 /* QuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C182ABA027C5E15600C1C142 /* QuotesApp.swift */; };
 		C182ABA327C5E15600C1C142 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C182ABA227C5E15600C1C142 /* ContentView.swift */; };
 		C182ABA527C5E15900C1C142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C182ABA427C5E15900C1C142 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C12411F727C680CF0011E65C /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		C182AB9D27C5E15600C1C142 /* Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C182ABA027C5E15600C1C142 /* QuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesApp.swift; sourceTree = "<group>"; };
 		C182ABA227C5E15600C1C142 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C12411F927C712C40011E65C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C182ABA227C5E15600C1C142 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C12411FA27C712DB0011E65C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C12411F727C680CF0011E65C /* Quote.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		C182AB9427C5E15600C1C142 = {
 			isa = PBXGroup;
 			children = (
@@ -52,9 +70,10 @@
 			isa = PBXGroup;
 			children = (
 				C182ABA027C5E15600C1C142 /* QuotesApp.swift */,
-				C182ABA227C5E15600C1C142 /* ContentView.swift */,
-				C182ABA427C5E15900C1C142 /* Assets.xcassets */,
+				C12411FA27C712DB0011E65C /* Models */,
+				C12411F927C712C40011E65C /* Views */,
 				C182ABA627C5E15900C1C142 /* Preview Content */,
+				C182ABA427C5E15900C1C142 /* Assets.xcassets */,
 			);
 			path = Quotes;
 			sourceTree = "<group>";
@@ -138,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C182ABA327C5E15600C1C142 /* ContentView.swift in Sources */,
+				C12411F827C680CF0011E65C /* Quote.swift in Sources */,
 				C182ABA127C5E15600C1C142 /* QuotesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
