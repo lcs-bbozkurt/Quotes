@@ -12,6 +12,7 @@
 		C182ABA327C5E15600C1C142 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C182ABA227C5E15600C1C142 /* ContentView.swift */; };
 		C182ABA527C5E15900C1C142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C182ABA427C5E15900C1C142 /* Assets.xcassets */; };
 		C182ABA827C5E15900C1C142 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C182ABA727C5E15900C1C142 /* Preview Assets.xcassets */; };
+		C1CCFC5027CC67760048AA5D /* SharedFunctionsAndConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CCFC4F27CC67760048AA5D /* SharedFunctionsAndConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C182ABA227C5E15600C1C142 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C182ABA427C5E15900C1C142 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C182ABA727C5E15900C1C142 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C1CCFC4F27CC67760048AA5D /* SharedFunctionsAndConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedFunctionsAndConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				C182ABA027C5E15600C1C142 /* QuotesApp.swift */,
+				C1CCFC4E27CC67530048AA5D /* Helpers */,
 				C12411FA27C712DB0011E65C /* Models */,
 				C12411F927C712C40011E65C /* Views */,
 				C182ABA627C5E15900C1C142 /* Preview Content */,
@@ -84,6 +87,14 @@
 				C182ABA727C5E15900C1C142 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C1CCFC4E27CC67530048AA5D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C1CCFC4F27CC67760048AA5D /* SharedFunctionsAndConstants.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1CCFC5027CC67760048AA5D /* SharedFunctionsAndConstants.swift in Sources */,
 				C182ABA327C5E15600C1C142 /* ContentView.swift in Sources */,
 				C12411F827C680CF0011E65C /* Quote.swift in Sources */,
 				C182ABA127C5E15600C1C142 /* QuotesApp.swift in Sources */,
