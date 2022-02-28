@@ -63,7 +63,7 @@ struct ContentView: View {
                     // Since it is asynchronous, other tasks can run while
                     // we wait for the data to come back from the web server.
                     Task {
-                        // Call the function that will get us a new joke!
+                        // Call the function that will get us a new quote!
                         await loadNewQuote()
                     }
                 }, label: {
@@ -146,7 +146,7 @@ struct ContentView: View {
             let (data, _) = try await urlSession.data(for: request)
             
             // Attempt to decode the raw data into a Swift structure
-            // Takes what is in "data" and tries to put it into "currentJoke"
+            // Takes what is in "data" and tries to put it into "currentQuote"
             //                                 DATA TYPE TO DECODE TO
             //                                         |
             //                                         V
@@ -154,7 +154,7 @@ struct ContentView: View {
             
             // Reset the flag that tracks whether the current joke
             // is a favourite
-            //f currentJokeAddedToFavourites = false
+             currentQuoteAddedToFavourites = false
             
         } catch {
             print("Could not retrieve or decode the JSON from endpoint.")
